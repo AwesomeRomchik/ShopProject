@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head></head>
+  <body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<div class="container">
+			<img src="Images/NavLogo1.png" href="home.php">
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav ml-auto">
+				
+				<!-- BUTTONS START -->
+				
+                <li class="nav-item">
+						<a href="home.php" class="nav-link">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a href="men.php" class="nav-link">MEN</a>
+					</li>
+          <li class="nav-item">
+						<a href="women.php" class="nav-link">WOMEN</a>
+					</li>
+          <li class="nav-item">
+						<a href="kids.php" class="nav-link">KIDS</a>
+					</li>
+		   <li class="nav-item">
+						<a href="#0" class="nav-link" id="cd-cart-trigger">CART</a>
+					</li>			
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">MY ACCOUNT
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu">
+                                <li><a href="register.php">SIGN UP</a></li>
+                                <li><a href="login.php">LOG IN</a></li>
+                                <li><a href="cart.php"><strong>CART</strong></a></li>
+                            </ul>
+                    </div>
+					</ul>
+			</div>
+		</div>
+		</nav>
+		
+<div id="cd-shadow-layer"></div>
+		<div id="cd-cart">
+   <h2>Cart</h2>
+   <ul class="cd-cart-items">
+      <li>
+         <!-- ... -->
+      </li>
+
+      <li>
+         <!-- ... -->
+      </li>
+   </ul> <!-- cd-cart-items -->
+
+   <div class="cd-cart-total">
+      <p>Total <span>$</span></p>
+   </div> <!-- cd-cart-total -->
+
+   <a href="#0" class="checkout-btn">Checkout</a>
+   <p class="cd-go-to-cart"><a href="cart.php">Go to cart page</a></p>
+	</div>
+	</body>
